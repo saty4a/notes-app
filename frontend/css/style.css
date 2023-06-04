@@ -1,0 +1,259 @@
+i {
+  color: white;
+}
+
+button {
+  background-color: #122736;
+  border: 2px solid white;
+}
+
+.checkIcon {
+  transform: rotate(135deg);
+}
+
+body {
+  background-color: #122736;
+}
+
+.heading {
+  color: white;
+  background-color: #122736;
+}
+
+.noteCard {
+  width: 18rem;
+  overflow: hidden;
+  height: 11rem;
+  padding-top: 1rem;
+  overflow: auto;
+}
+
+.noteCard:nth-child(even) {
+  background: linear-gradient(130deg, #0c4271 0%, rgba(59, 60, 75, 1) 80%);
+  color: #e9e9f2;
+}
+
+.noteCard:nth-child(odd) {
+  background: linear-gradient(
+    160deg,
+    hsla(41, 100%, 70%, 1) 0%,
+    hsla(7, 76%, 42%, 1) 100%
+  );
+}
+
+.inputForm {
+  width: 100%;
+}
+
+.inputTitle {
+  width: 100%;
+  text-align: start;
+  background-color: transparent;
+  padding-left: 2rem;
+  color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+.title {
+  margin-left: 2rem;
+  outline: none;
+  text-align: start;
+  outline: none;
+}
+
+.content {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  outline: none;
+  color: #a9afb3;
+}
+
+.inputContent {
+  width: 100%;
+  text-align: start;
+  padding-left: 2rem;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  outline: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+.addButton {
+  width: 20%;
+  height: 9.5vh;
+  border-radius: 100%;
+  transition: transform 0.3s ease-in;
+  font-size: 1.5rem;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  color: white !important;
+}
+
+.popupHeading {
+  display: none;
+}
+
+.deleteBtn {
+  width: 25%;
+  padding: 5% 3% 5% 3%;
+  border-radius: 20%;
+  margin-top: 3rem;
+}
+
+.modifyBtn {
+  width: 25%;
+  padding: 5% 3% 5% 3%;
+  border-radius: 20%;
+  margin-top: 3rem;
+}
+
+.eventMsg {
+  padding-top: 2rem;
+  text-align: center;
+  color: white;
+  animation: fadeOut 4.5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .addButton {
+    width: 17%;
+    height: 11vh;
+  }
+
+  .deleteBtn {
+    width: 16%;
+    padding: 4% 3% 4% 3%;
+  }
+
+  .modifyBtn {
+    width: 16%;
+    padding: 4% 3% 4% 3%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .popupHeading {
+    display: block;
+    margin-left: 23%;
+  }
+
+  .eventMsg {
+    display: hide !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .inputTitle {
+    width: 50%;
+  }
+
+  .inputContent {
+    width: 50%;
+  }
+
+  .addButton {
+    width: 12%;
+    height: 11vh;
+  }
+
+  .deleteBtn {
+    width: 10%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .modifyBtn {
+    width: 10%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .popupHeading {
+    margin-left: 32%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    margin-left: 0rem;
+  }
+
+  .content {
+    margin-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .addButton {
+    width: 8%;
+    height: 9vh;
+  }
+
+  .deleteBtn {
+    width: 8%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .modifyBtn {
+    width: 8%;
+    padding: 2% 0% 2% 0%;
+  }
+
+  .popupHeading {
+    margin-left: 33.5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    margin: auto;
+  }
+
+  .addButton {
+    width: 7%;
+    height: 11vh;
+  }
+
+  .deleteBtn {
+    width: 6%;
+    padding: 1.5% 0% 1.5% 0%;
+  }
+
+  .modifyBtn {
+    width: 6%;
+    padding: 1.5% 0% 1.5% 0%;
+  }
+
+  .popupHeading {
+    margin-left: 36%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .addButton {
+    width: 5%;
+    height: 8vh;
+  }
+
+  .popupHeading {
+    margin-left: 39.5%;
+  }
+}
