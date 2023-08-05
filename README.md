@@ -1,5 +1,6 @@
 # notes-app
 visit webpage on - https://notes-app-frontend-mu.vercel.app/
+You need to wait for some time for data to come initally.
 
 ## what you can do
 you can perform CRUD operations
