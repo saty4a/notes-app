@@ -14,7 +14,7 @@ const crossBtn = document.getElementById("crossBtn");
 const eventMsg = document.querySelector(".eventMsg");
 const popupHeading = document.querySelector(".popupHeading");
 const topheading = document.querySelector(".heading h1");
-const baseUrl = "http://127.0.0.1:8090/api";
+const baseUrl = "https://notes-app-mongodb-backend.vercel.app/api";
 
 function toggleHeading() {
   inputNote.classList.toggle("hide");
